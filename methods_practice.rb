@@ -9,7 +9,8 @@
 string = "This is a string."
 p string.reverse
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
-
+p 
+number 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
