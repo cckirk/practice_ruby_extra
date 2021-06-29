@@ -5,6 +5,14 @@
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
+def sum
+p "Please enter a number: "
+  num1 = gets.chomp.to_i
+p "Please enter a second number: "
+  num2 = gets.chomp.to_i
+  return num1 + num2
+end
+p sum
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 string = "This is a string."
 p string.reverse
