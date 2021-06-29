@@ -25,5 +25,8 @@ p hash
 array = [{:brand => "HP", :model => "Pavilion"}, {:brand => "IBM", :model => "Lenovo"}, {:brand => "Dell", :model => "Latitude"}]
 p array[1][:model]
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
-
+hash = {:example => "An example of something", :word => "A unit of communication"}
+hash[:sample] = "a small portion of a larger whole"
+p hash[:sample]
+p hash
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
